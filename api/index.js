@@ -51,3 +51,5 @@ app.use(errorHandler);
 app.listen(port, () => {
   console.log(`El puerto por el que se accede es el ${port}`);
 });
+
+module.exports = app;
